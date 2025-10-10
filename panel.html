@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ringkasan: Control Panel Hosting</title>
+  <link rel="stylesheet" href="gaktau.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="home.html">Nama Anda</a>
+      <nav class="nav" id="nav2">
+        <a href="home.html">Beranda</a>
+        <a href="panel.html" aria-current="page">Control Panel Hosting</a>
+        <a href="intro.html">Pengantar Hosting</a>
+      </nav>
+      <button id="navToggle2" class="nav-toggle" aria-label="Buka navigasi">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <article class="content">
+      <h1>Ringkasan: Control Panel Hosting</h1>
+      <p>Control panel (panel kontrol) adalah antarmuka berbasis web yang digunakan untuk mengelola layanan hosting. Panel paling umum: <strong>cPanel</strong>, <strong>Plesk</strong>, <strong>DirectAdmin</strong>. Fungsi utamanya meliputi manajemen file, domain, email, database, dan pengaturan keamanan.</p>
+
+      <section class="illustration">
+        <!-- Ilustrasi sederhana: layout control panel -->
+        <svg width="100%" height="220" viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustrasi Control Panel">
+          <rect x="0" y="0" width="1000" height="220" fill="#f6f8fb"/>
+          <rect x="20" y="20" width="260" height="180" fill="#fff" stroke="#d6e0ef" />
+          <text x="150" y="45" font-size="18" text-anchor="middle" fill="#2b4a72">Sidebar</text>
+          <rect x="300" y="20" width="680" height="60" fill="#fff" stroke="#d6e0ef"/>
+          <text x="640" y="55" font-size="18" text-anchor="middle" fill="#2b4a72">Dashboard / Quick Actions</text>
+          <rect x="300" y="100" width="320" height="90" fill="#fff" stroke="#d6e0ef"/>
+          <text x="460" y="145" font-size="16" text-anchor="middle" fill="#333">File Manager</text>
+          <rect x="640" y="100" width="340" height="90" fill="#fff" stroke="#d6e0ef"/>
+          <text x="810" y="145" font-size="16" text-anchor="middle" fill="#333">Email / Database / Domain</text>
+        </svg>
+      </section>
+
+      <h2>Fitur Utama</h2>
+      <ul>
+        <li><strong>File Manager</strong> — mengupload, mengekstrak, memodifikasi file website.</li>
+        <li><strong>Domain & Subdomain</strong> — menambahkan domain, mengelola DNS, membuat subdomain.</li>
+        <li><strong>Email</strong> — membuat alamat email, pengaturan forwarder, autoresponder.</li>
+        <li><strong>Database</strong> — membuat MySQL/MariaDB, phpMyAdmin untuk manajemen database.</li>
+        <li><strong>Keamanan</strong> — SSL/TLS, pengaturan firewall, backup & restore.</li>
+        <li><strong>Instalasi Aplikasi</strong> — softaculous atau installer lainnya untuk CMS (WordPress, Joomla).</li>
+      </ul>
+
+      <h2>Cara Umum Menggunakan</h2>
+      <ol>
+        <li>Login ke panel (biasanya via port tertentu atau alamat khusus, contoh: https://yourdomain.com:2083 untuk cPanel).</li>
+        <li>Gunakan File Manager untuk menaruh file website di direktori public_html atau www.</li>
+        <li>Buat database jika website butuh MySQL; catat nama, user, password.</li>
+        <li>Atur domain dan DNS bila perlu — pastikan A record mengarah ke IP server.</li>
+        <li>Pasang SSL (Let's Encrypt atau yang disediakan hosting) untuk keamanan.</li>
+      </ol>
+
+      <h2>Tips Singkat</h2>
+      <ul>
+        <li>Selalu backup sebelum melakukan perubahan besar.</li>
+        <li>Gunakan password kuat untuk akun panel dan database.</li>
+        <li>Pelajari log error bila website bermasalah (error logs di panel).</li>
+        <li>Pelajari fitur installer otomatis untuk mempercepat setup CMS.</li>
+      </ul>
+
+      <p class="muted">Gambar di atas hanya ilustrasi sederhana. Untuk praktik langsung, masuk ke control panel layanan hosting yang Anda gunakan.</p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year2"></span> Muhammad Raihan Andito — Ringkasan Control Panel Hosting.</small>
+    </div>
+  </footer>
+
+  <script src="jawa.js"></script>
+</body>
+</html>
