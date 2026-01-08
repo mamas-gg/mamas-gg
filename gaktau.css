@@ -5,6 +5,10 @@
     color:#1f2933;
     line-height:1.5;
   }
+
+h1{
+  position:center;
+}
   .container{max-width:1000px;margin:0 auto;padding:20px;}
   .site-header{background:#fff;border-bottom:1px solid #e6eef8;position:sticky;top:0;z-index:20}
   .header-inner{display:flex;align-items:center;justify-content:space-between;padding:12px 20px;}
@@ -29,3 +33,4 @@
   .card{background:var(--card);padding:16px;border-radius:10px;box-shadow:0 6px 18px rgba(25,41,73,0.04)}
   
   .site-footer{padding:20px 0;text-align:center;color:var(--muted);margin-top:40px}
+
