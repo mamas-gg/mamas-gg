@@ -1,11 +1,3 @@
-:root{
-    --accent: #2469a8;
-    --muted: #6c7a89;
-    --bg: #f7f9fc;
-    --card: #ffffff;
-    --radius: 10px;
-  }
-  *{box-sizing:border-box}
   body{
     margin:0;
     font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
@@ -37,18 +29,3 @@
   .card{background:var(--card);padding:16px;border-radius:10px;box-shadow:0 6px 18px rgba(25,41,73,0.04)}
   
   .site-footer{padding:20px 0;text-align:center;color:var(--muted);margin-top:40px}
-  
-  /* Content pages */
-  .content{background:var(--card);padding:22px;border-radius:10px;box-shadow:0 8px 24px rgba(25,41,73,0.04)}
-  .illustration{margin:14px 0}
-  .muted{color:var(--muted);font-size:14px}
-  
-  /* Responsive */
-  @media (max-width:900px){
-    .hero{grid-template-columns:1fr;text-align:center}
-    .profile-photo{margin:0 auto}
-    .card-row{grid-template-columns:1fr}
-    .nav{display:none}
-    .nav-toggle{display:block}
-  }
-  
